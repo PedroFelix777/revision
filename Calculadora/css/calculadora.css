@@ -58,6 +58,13 @@ section{
     outline: 1px solid #0593A2;
 }
 
+.numeros input::-webkit-inner-spin-button,
+.numeros input::-webkit-outer-spin-button{
+    appearance: none;
+}
+
+
+
 .operations{
     display: flex;
     align-items: center;
@@ -73,6 +80,7 @@ section{
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    background-color: white;
     
 }
 
