@@ -7,7 +7,8 @@ let total = 0;
 function soma(){
     
     
-    result.textContent = numberOne.value + numberTwo.value;
+    
+    result.textContent = parseInt(numberOne.value)  + parseInt(numberTwo.value);
 }
 
 function sub(){
