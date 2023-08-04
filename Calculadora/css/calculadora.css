@@ -46,6 +46,7 @@ section{
     border: none;
     border-radius: 5px;
     box-shadow: 1px 1px 6px #0000001c;
+    text-align: center;
 }
 
 .numeros input:hover{
