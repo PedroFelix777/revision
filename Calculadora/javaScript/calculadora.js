@@ -38,3 +38,5 @@ function mult(){
 
 }
 } */
+
+/* A função eval verifica se podem ser executadas as ações que form passadas */
