@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="css/calculadora.css">
+
+</head>
+<body>
+    <section>
+
+        <div class="infos">
+            <h1>Calculadora</h1>
+            <p>Coloque os respectivos números e selecione a operação que deseja realizar</p>
+            
+        </div>
+        
+
+        <div class="numeros">
+
+            <input type="number" placeholder="Digite o primeiro número" id="numberOne"> 
+            <input type="number" placeholder="Digite o segundo número" id="numberTwo">
+
+        </div>
+
+        <div class="operations">
+
+            <button onclick="soma()">+</button>
+            <button onclick="sub()">-</button>
+            <button onclick="div()">÷</button>
+            <button onclick="mult()">x</button>
+
+        </div>
+
+        <div id="result"></div>
+
+    </section>
+
+    <script src="javaScript/calculadora.js"></script>
+    
+</body>
+</html>
